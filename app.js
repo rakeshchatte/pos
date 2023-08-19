@@ -14,7 +14,7 @@ app.use(cors());
 app.use(morgan('dev'));
 app.use(express.json())
 app.use('/', (req, res)=>{
-    res.send('Home Page')
+    res.send('Home Pages')
 });
 app.use('/api/items', require('./Routes/itemRoute'));
 
